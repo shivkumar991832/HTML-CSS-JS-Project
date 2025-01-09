@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.container h1{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.329);
+    
+    
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.904);
+    width: 450px;
+    padding: 30px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.37);
+    background-image: linear-gradient(blue, green,yellow, red);
+
+   
+    
+    
+    
+}
+
+
+
+
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    
+}
+
+.num h2{
+    font-size: 60px;
+    margin-inline: 7px; 
+    /* this is for making distance */
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.253);
+
+
+
+}
+
+.btn{
+   
+    /* border: 1px solid black; */
+    /* background-color: red; */
+    font-size: 24px;
+    border: none;
+    outline: none;
+    /* border-radius: 9px; */
+
+}
+
+.btn button{
+    color: white;
+    border: none;
+    background-image: linear-gradient(blue, green);
+    height: 30px;
+    width: 80px;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.274);
+    transition: all 2s linear infinite;
+    
+}
+
+.btn button:hover{
+    border: 2px solid white;
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    
+}

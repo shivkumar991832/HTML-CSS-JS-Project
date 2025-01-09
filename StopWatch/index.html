@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>StopWatch</h1> -->
+    <div class="container">
+        <h1>StopWatch</h1>
+        
+        
+        <div class="num">
+            <h2 id="hour">00</h2>
+            <h2>:</h2>
+
+            <h2 id="min">00</h2>
+            <h2>:</h2>
+
+            <h2 id="sec">00</h2>
+            <h2>:</h2>
+
+            <h2 id="milli">00</h2>
+            
+        </div>
+
+        <div class="btn">
+            <!-- calling the start,stop and reset through onclick -->
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
