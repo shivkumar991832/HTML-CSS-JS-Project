@@ -88,7 +88,7 @@ body{
 }
 
 .btn button:hover{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
     

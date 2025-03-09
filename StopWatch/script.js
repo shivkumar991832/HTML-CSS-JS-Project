@@ -9,6 +9,7 @@ let timer = false; //initially times stop
 
 function start(){
     timer = true;
+
     myFun();
 }
 
@@ -22,7 +23,15 @@ function reset(){
     location.reload();
 }
 
+
+let date = document.querySelector('#date')
+    let myDate = new Date()
+    date.innerHTML = `${myDate.getDate()}/${myDate.getMonth()+1}/${myDate.getFullYear()}`
+    
+
 //craeting a function
+
+
 
 function myFun(){
     if(timer == true){
@@ -69,6 +78,11 @@ function myFun(){
         document.getElementById("sec").innerHTML=getSec;
         document.getElementById("min").innerHTML=getmin;
         document.getElementById("hour").innerHTML=gethour;
+
+
+       
+
+
     }
 }
 

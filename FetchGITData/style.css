@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.git-data {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.input-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 1px 2px 6px black;
+    position: relative;
+    bottom: 250px;
+    position: relative;
+    
+}
+
+#git-name{
+   height: 35px; 
+   width: 300px;
+   border: none;
+}
+
+#btn {
+    height: 35px; 
+    width: 80px; 
+    background-color: gold;
+    color: white;
+    font-size: 15px;
+    border: none;
+   
+    
+}
+
+#btn:hover{
+    transform: scale(1.05);
+}
+
+.git-info {
+    position: absolute;
+    top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    display: none;
+   
+   
+}
+
+
+#img {
+    height: 240px;
+    width: 240px;   
+    border-radius: 50%;
+    box-shadow: 1px 2px 7px black;
+
+    
+}
+
+.user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 10px;
+    margin-top: 40px;
+    height: 180px;
+    width: 240px;
+
+
+}
+
+.name, .bio, .location{
+    font-size: 20px;
+    
+}
